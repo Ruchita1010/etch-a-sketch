@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    flex-wrap: wrap-reverse;
+    color: #f5f5f5;
+    background-color: #0D67CE;  /* fallback */
+    background: linear-gradient( #0D67CE, #022e61);
+}
+
+#grid-controls{
+    width: 20rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.btn{
+    width: 80%;
+    margin: 0.3rem 0;
+    padding: 0.6rem;
+    color: #022e61;
+    background-color:#f5f5f5;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Syne Mono', monospace;
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 1px 1px 10px #022e61;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 1px 1px 10px #0D67CE;
+}
+
+input[type="color"] {
+	-webkit-appearance: none;
+	width: 5rem;
+	height: 5rem;
+	border: none;
+}
+
+input[type="color"]:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+	border: 8px solid #022e61;
+    box-shadow: 1px 1px 10px #022e61;
+}
+
+#input-grid-size{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+}
+
+#grid-container{
+    width: 36rem;
+    height: 36rem;
+    display: grid;
+    margin: 1rem;
+    box-shadow: 0px 0px 15px #022e61;
+}
+
+/* classes to be added using javascript*/
+.grid-cell{
+    background-color: #f5f5f5;
+    border: 0.2px solid #e6e6e6;
+}
+
+.grid-lines{
+    border: none;
+}
