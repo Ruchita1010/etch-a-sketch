@@ -13,7 +13,7 @@ Create pixel art using Etch-A-Sketch - created using HTML, CSS and Javascript fo
 * Overall, I encounter many tiny problems which lead in learning many things and I'm quite happy :) </br>
 
 # Preview
-![image](\etch-a-sketch.png)
+![image](etch-a-sketch.png)
 
 # Demo
 👉 [Live Demo](https://ruchita1010.github.io/etch-a-sketch/)
